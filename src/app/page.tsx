@@ -83,7 +83,7 @@ export default function Home() {
 
 							<Button
 								id="readDocs"
-								href=""
+								onClick={() => window.open("https://www.hypervizion.ly/", '_blank', 'noopener,noreferrer')}
 								variant="secondary">
 								<Flex alignItems="center">
 									To HyperVizion
