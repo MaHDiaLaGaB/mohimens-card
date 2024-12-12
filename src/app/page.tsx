@@ -24,10 +24,12 @@ export default function Home() {
 						border="accent-medium"
 						borderStyle="solid-1"
 						gap="24"
-						padding="24"
+						padding="20"
 						justifyContent="center"
 						radius="l"
 						onBackground="brand-strong"
+						mobileDirection='column'
+
 					>
 						<Flex
 							position="relative"
